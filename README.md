@@ -30,6 +30,7 @@ At the moment, the only endpoint is POST `/api/create` with the `ip_address` and
 - [ ] Clean up and update libraries to the latest versions.
 - [ ] Add an option to select the amount of time that a proxy is active for.
 - [ ] Add some way for the user to delete reverse proxies.
+- [ ] Add caching for the UUIDs.
 - [ ] Improve documentation and add instructions for self-hosting.
 - [ ] Integrate with the cPanel website hosting control panel.
 - [ ] Add authentication so that users can manage and store their reverse proxies.
