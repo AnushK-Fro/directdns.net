@@ -1,0 +1,6 @@
+CREATE TABLE sessions (
+    token VARCHAR(255) NOT NULL PRIMARY KEY,
+    hostname VARCHAR(255) NOT NULL,
+    ip_address VARCHAR(255),
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
